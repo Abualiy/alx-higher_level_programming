@@ -1,4 +1,4 @@
 #!/usr/bin/pyhton3
 
 class LockedClass:
-    __slots__=["frist_name"]
+    __slots__ = ["first_name"]
