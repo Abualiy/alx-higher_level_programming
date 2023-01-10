@@ -5,7 +5,6 @@
 class Student:
     """class Student that defines a student by"""
 
-
     def __init__(self, first_name, last_name, age):
         """ Initializing """
         self.first_name = first_name
