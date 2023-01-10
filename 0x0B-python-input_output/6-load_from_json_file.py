@@ -5,5 +5,5 @@ import json
 
 def load_from_json_file(filename):
     """ function that creates an Object """
-    with open(filename, "w") as a_file:
+    with open(filename) as a_file:
         return json.load(a_file)
